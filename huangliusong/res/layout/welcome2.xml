@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#6CD0CB"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#FFFFFF"
+        android:text="超搞笑的糗事分享社区" />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#FFFFFF"
+        android:text="(左侧滑动进入下一页)" />
+</LinearLayout>

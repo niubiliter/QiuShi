@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+         android:background="@drawable/bgs"
+         >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+         android:background="#ffa041"
+        android:orientation="horizontal" >
+		
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+           
+            android:onClick="clickButton"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_qiushi"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/tab_image_qiushi_background_selector" />
+
+            <TextView
+                android:id="@+id/textView_qiushi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="糗事"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_qiuyou"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/tab_image_qiuyou_background_selector" />
+
+            <TextView
+                android:id="@+id/textView_qiuyou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="糗友圈"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_find"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/tab_image_find_background_selector" />
+
+            <TextView
+                android:id="@+id/textView_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="发现"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_smallpager"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/tab_image_smallpager_background_selector" />
+
+            <TextView
+                android:id="@+id/textView_smallpager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="小纸条"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView_mine"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/tab_image_me_background_selector" />
+
+            <TextView
+                android:id="@+id/textView_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="我"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
